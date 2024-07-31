@@ -1,47 +1,44 @@
 ---
 sidebar_position: 1
+sidebar_label: 'Unofficial FAQ Documentation'
 ---
 
-# Tutorial Intro
+# Unofficial goAML FAQ Documentation
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## IMPORTANT DISCLAIMER
 
-## Getting Started
+:::danger
+**This documentation is UNOFFICIAL and serves only as a PROOF OF CONCEPT.**
+:::
 
-Get started by **creating a new site**.
+:::caution
+The information presented in this documentation:
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+- Is NOT officially endorsed by any Swiss government entity
+- Has NOT been verified for accuracy or completeness
+- May be outdated or incorrect
+- Should NOT be used for any official or legal purposes
+- Is intended SOLELY for demonstration and educational purposes
 
-### What you'll need
+For official, up-to-date, and accurate information regarding goAML and suspicious activity reporting in Switzerland, please always refer to the **[official MROS website](https://www.fedpol.admin.ch/fedpol/en/home/kriminalitaet/geldwaescherei/meldung.html)**.
+:::
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## About This Documentation
 
-## Generate a new site
+This unofficial documentation is a proof-of-concept demonstration of how the goAML FAQ could be structured in a Docusaurus-style documentation site. It is based on publicly available information but has been reorganized and reformatted for clarity and ease of navigation.
 
-Generate a new Docusaurus site using the **classic template**.
+The content is divided into several sections:
 
-The classic template will automatically be added to your project after you run the command:
+- [Overview](FAQ/overview.md)
+- [Registration](FAQ/registration.md)
+- [Technical Requirements](FAQ/technical-requirements.md)
+- [Reporting Process](FAQ/reporting-process.md)
+- [Data Security](FAQ/data-security.md)
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+Please note that while efforts have been made to maintain accuracy, this unofficial documentation may contain errors, omissions, or outdated information. Always verify critical information with official sources.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+## Feedback and Corrections
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+As this is an unofficial proof of concept, there is no formal feedback or correction process. In a real-world scenario, such a documentation site would typically include information on how to submit feedback, report errors, or suggest improvements.
 
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Remember: For any official inquiries or concerns about goAML or suspicious activity reporting, always contact MROS directly through official channels.
